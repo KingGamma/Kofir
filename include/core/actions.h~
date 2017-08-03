@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <cstdint>
+using namespace std;
+
+class Actions
+{
+     public:
+	 Actoins::Actions::(int id);
+	 void exec(void);
+	 void exit(void);
+         std::string make_sentence(string sen);
+
+     private:
+	 int id;
+};
